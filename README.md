@@ -37,9 +37,7 @@ It’s not necessary to use exactly git flow, but everyone around you will be ha
 
 For media or other lagre files please use [git lfs](https://git-lfs.github.com/)
 
-Each major release version of the project must be move in the new branch
-All important commits must have an explanatory tag. For example: 
-- C#>4.0
+Each major release version of the project must be move in the new branch. Commits for CI must contain full version description tag as well.
 
 As soon as the some versions cease to be compatible (like SDK for Unity 2018 and SDK for Unity 2019), it is necessary to discuss support for incompatible versions and/or possible forks it
 
